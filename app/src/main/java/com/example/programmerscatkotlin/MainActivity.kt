@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val poem = readPoem(this, "poem.txt")
+        val poem = readPoem(this, getString(R.string.poem_name))
 
         val poemName = getPoemName(poem)
         val poemNameView: TextView = findViewById(R.id.poem_name)

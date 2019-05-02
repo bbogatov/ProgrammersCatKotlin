@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">ProgrammersCatKotlin</string>
+    <string name="app_name">Programmers Cat Kotlin</string>
+    <string name="poem_name">poem.txt</string>
 </resources>
