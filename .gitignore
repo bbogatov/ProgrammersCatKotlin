@@ -31,7 +31,6 @@
 *.tar.gz
 *.rar
 *.idea
-*.txt
 *.par
 *.jpg
 *.png

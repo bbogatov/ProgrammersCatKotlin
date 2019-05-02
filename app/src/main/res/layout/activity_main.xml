@@ -9,16 +9,15 @@
 
 
     <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/poem_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
-            android:text="@string/poem_name"
             android:textStyle="bold"
             android:textColor="#000000"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"/>
 
     <ScrollView
             android:id="@+id/scrollBarPoem"
@@ -28,15 +27,14 @@
             android:layout_marginTop="8dp"
             android:scrollbars="vertical"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView3">
+            app:layout_constraintTop_toBottomOf="@+id/poem_name">
 
         <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/poem_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="serif-monospace"
-                android:text="@string/poem"
-                android:textColor="#020000" />
+                android:textColor="#020000"/>
     </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
